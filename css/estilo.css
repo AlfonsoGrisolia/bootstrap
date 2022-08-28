@@ -1,0 +1,16 @@
+
+#headerTop {background-color: rgb(205, 147, 70); display: flex; justify-content: center;}
+body {background-color: rgb(66, 59, 59);}
+
+a {
+    margin-left: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav {
+    max-width: 100%;
+}
+
+
+
+
