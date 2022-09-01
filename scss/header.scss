@@ -1,0 +1,18 @@
+#headerTop {
+    background-color: #cd9346;
+    display: flex;
+    justify-content: center; }
+
+nav {
+    padding-left: 75px;
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.row {
+
+    --bs-gutter-x: 0rem;
+    
+}

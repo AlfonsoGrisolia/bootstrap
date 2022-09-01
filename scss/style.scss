@@ -1,0 +1,61 @@
+@import "colors";
+
+main{
+    div{
+        h1{
+            color: #cd9346; margin-top: 100px;
+            
+        }
+    }
+}
+
+h5{text-align: center; color: $colorGlobal;}
+.card-text{color: $colorGlobal;}
+.btn {
+    margin-left: 50px;
+    
+}
+
+p{color: $colorSecundario;
+    #contactoParrafo{
+        color: #cd9346;
+    }
+}
+
+body{background-color: $colorGlobal;}
+
+video{ margin-top: 50px;}
+
+#headerTop {
+    background-color: #cd9346;
+    display: flex;
+    justify-content: center; }
+
+nav {padding-left: 50px;}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.row {--bs-gutter-x: 0rem;}
+
+.linea {
+    border-top: 2px solid goldenrod;
+    height: 2px;
+    }
+
+.footerColor {background-color: rgb(20, 11, 11);margin-top: 50px;}
+
+.card {margin: auto;}
+
+@media only screen and (max-width: 760px){
+    .mediaFix {width: 100%;}
+    .card { margin: auto;}
+    .row {--bs-gutter-x: 0rem;}
+    .navbar-brand {margin: auto;}
+    .nav-item {margin: auto;}
+}
+
+
+
+
