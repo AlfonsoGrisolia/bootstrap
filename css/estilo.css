@@ -29,19 +29,15 @@ p {font-family: Georgia, 'Times New Roman', Times, serif; color: whitesmoke; }
 }
 
 .linea {
-    border-top: 1px solid goldenrod;
+    border-top: 2px solid goldenrod;
     height: 2px;
-    
-    margin-top: 50px ;
-    
-    
 }
 
 h5 {
     text-align: center;
 }
 
-.card-text {color: black;}
+.card-text {color: rgb(0, 0, 0);}
 
 .txtIndex {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -51,3 +47,33 @@ h5 {
 video {
     margin-top: 50px;
 }
+
+.footerColor {
+    background-color: rgb(20, 11, 11);
+    
+}
+
+main {
+    margin-bottom: 30px;
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.row {
+
+    --bs-gutter-x: 0rem;
+    
+}
+
+@media only screen and (max-width: 760px){
+    .mediaFix {width: 100%;}
+    .card { margin: auto;}
+    video { margin-left: 100px;}
+    .navbar-brand {margin: auto;}
+    .nav-item {margin: auto;}
+}
+    
+    
