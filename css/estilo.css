@@ -71,7 +71,11 @@ main {
 @media only screen and (max-width: 760px){
     .mediaFix {width: 100%;}
     .card { margin: auto;}
-    video { margin-left: 100px;}
+    .row {
+
+        --bs-gutter-x: 0rem;
+        
+    }
     .navbar-brand {margin: auto;}
     .nav-item {margin: auto;}
 }
