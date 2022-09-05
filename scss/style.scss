@@ -1,6 +1,6 @@
 @import "colors";
 
-main{
+main{ margin-bottom: 75px;
     div{
         h1{
             color: #cd9346; margin-top: 100px;
@@ -8,7 +8,7 @@ main{
         }
     }
 }
-
+h3{color: #cd9346; padding: 10px; font-size: 15px;}
 h5{text-align: center; color: $colorGlobal;}
 .card-text{color: $colorGlobal;}
 .btn {
@@ -31,7 +31,7 @@ video{ margin-top: 50px;}
     display: flex;
     justify-content: center; }
 
-nav {padding-left: 50px;}
+
 
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
     padding-right: 0px;
@@ -44,8 +44,16 @@ nav {padding-left: 50px;}
     height: 2px;
     }
 
-.footerColor {background-color: rgb(20, 11, 11);margin-top: 50px;}
 
+footer {position: relative;
+bottom: 0;
+width: 100%;
+background-color: rgb(20, 11, 11);
+
+}
+.navbar-brand{margin-left: 50px;}
+.nav-item{margin-left: 175px;}
+.footerImg{text-align: center; } 
 .card {margin: auto;}
 
 @media only screen and (max-width: 760px){
@@ -54,6 +62,9 @@ nav {padding-left: 50px;}
     .row {--bs-gutter-x: 0rem;}
     .navbar-brand {margin: auto;}
     .nav-item {margin: auto;}
+    .navbar-toggler {width: 100%; }
+    
+    
 }
 
 

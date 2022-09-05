@@ -1,9 +1,16 @@
 body {
   background-color: #2b2121; }
 
-main div h1 {
+main {
+  margin-bottom: 75px; }
+  main div h1 {
+    color: #cd9346;
+    margin-top: 100px; }
+
+h3 {
   color: #cd9346;
-  margin-top: 100px; }
+  padding: 10px;
+  font-size: 15px; }
 
 h5 {
   text-align: center;
@@ -31,9 +38,6 @@ video {
   display: flex;
   justify-content: center; }
 
-nav {
-  padding-left: 50px; }
-
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
   padding-right: 0px;
   padding-left: 0px; }
@@ -45,9 +49,20 @@ nav {
   border-top: 2px solid goldenrod;
   height: 2px; }
 
-.footerColor {
-  background-color: #140b0b;
-  margin-top: 50px; }
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  background-color: #140b0b; }
+
+.navbar-brand {
+  margin-left: 50px; }
+
+.nav-item {
+  margin-left: 175px; }
+
+.footerImg {
+  text-align: center; }
 
 .card {
   margin: auto; }
@@ -62,4 +77,6 @@ nav {
   .navbar-brand {
     margin: auto; }
   .nav-item {
-    margin: auto; } }
+    margin: auto; }
+  .navbar-toggler {
+    width: 100%; } }
