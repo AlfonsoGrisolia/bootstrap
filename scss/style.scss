@@ -1,6 +1,6 @@
 @import "colors";
 
-main{ margin-bottom: 75px;
+main{ margin-bottom: 75px; min-height: calc(100vh - 100px - 183px);
     div{
         h1{
             color: #cd9346; margin-top: 100px;
@@ -56,6 +56,7 @@ background-color: rgb(20, 11, 11);
 .footerImg{text-align: center; } 
 .card {margin: auto;}
 
+
 @media only screen and (max-width: 760px){
     .mediaFix {width: 100%;}
     .card { margin: auto;}
@@ -63,6 +64,9 @@ background-color: rgb(20, 11, 11);
     .navbar-brand {margin: auto;}
     .nav-item {margin: auto;}
     .navbar-toggler {width: 100%; }
+    .navbar-toggler:focus {box-shadow: none;}
+    .navbar-light .navbar-toggler {border: none;}
+    
     
     
 }

@@ -2,7 +2,8 @@ body {
   background-color: #2b2121; }
 
 main {
-  margin-bottom: 75px; }
+  margin-bottom: 75px;
+  min-height: calc(100vh - 100px - 183px); }
   main div h1 {
     color: #cd9346;
     margin-top: 100px; }
@@ -79,4 +80,8 @@ footer {
   .nav-item {
     margin: auto; }
   .navbar-toggler {
-    width: 100%; } }
+    width: 100%; }
+  .navbar-toggler:focus {
+    box-shadow: none; }
+  .navbar-light .navbar-toggler {
+    border: none; } }
