@@ -1,0 +1,6 @@
+@each $familiatipografica in Arial, 'Comic Sans Ms', tahoma {
+.font-#{$familiatipografica}{
+    font-family: #{$familiatipografica};
+}
+
+}
