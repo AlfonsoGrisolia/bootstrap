@@ -8,9 +8,42 @@ main{ margin-bottom: 75px; min-height: calc(100vh - 100px - 183px);
         }
     }
 }
-h3{color: #cd9346; padding: 10px; font-size: 15px;}
+
+.txtP {padding: 10px; font-size: 15px;}
+h3{ @extend .txtP; color: #cd9346; }
+
+@mixin txtProductosCards ($color) {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    &color{
+        color: $color;
+    }
+}
+
+.card-text{
+    @include txtProductosCards(#000000);
+    color: $colorGlobal;
+    height: 60px;
+    }
+
+    $FontSizes: (
+        'fz1': 10px,
+        'fz2': 20px,
+        'fz3': 30px
+    
+    );
+
+.txtIndex {
+    font-size: map-get($FontSizes, $key:fz2 );
+}
+
+
+
 h5{text-align: center; color: $colorGlobal;}
-.card-text{color: $colorGlobal;}
+
 .btn {
     margin-left: 50px;
     

@@ -8,16 +8,29 @@ main {
     color: #cd9346;
     margin-top: 100px; }
 
-h3 {
-  color: #cd9346;
+.txtP, h3 {
   padding: 10px;
   font-size: 15px; }
 
-h5 {
-  text-align: center;
-  color: #2b2121; }
+h3 {
+  color: #cd9346; }
 
 .card-text {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  color: #2b2121;
+  height: 60px; }
+  .card-textcolor {
+    color: #000000; }
+
+.txtIndex {
+  font-size: 20px; }
+
+h5 {
+  text-align: center;
   color: #2b2121; }
 
 .btn {
