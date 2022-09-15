@@ -40,7 +40,9 @@ h3{ @extend .txtP; color: #cd9346; }
     font-size: map-get($FontSizes, $key:fz2 );
 }
 
-
+.carousel-inner img{
+    height: 1118px;
+}
 
 h5{text-align: center; color: $colorGlobal;}
 
@@ -99,7 +101,7 @@ background-color: rgb(20, 11, 11);
     .navbar-toggler {width: 100%; }
     .navbar-toggler:focus {box-shadow: none;}
     .navbar-light .navbar-toggler {border: none;}
-    
+    .carousel-inner img{height: 242px;}
     
     
 }
