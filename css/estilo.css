@@ -37,7 +37,12 @@ h5 {
   color: #2b2121; }
 
 .btn {
-  margin-left: 50px; }
+  margin-left: 70px;
+  bottom: 0; }
+
+.btn-primary {
+  position: absolute;
+  margin-bottom: 10px; }
 
 p {
   color: white; }
@@ -72,8 +77,12 @@ footer {
   width: 100%;
   background-color: #140b0b; }
 
+footer img {
+  padding-bottom: 15px; }
+
 .navbar-brand {
-  margin-left: 50px; }
+  margin-left: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
 
 .nav-item {
   margin-left: 175px; }
@@ -83,6 +92,10 @@ footer {
 
 .card {
   margin: auto; }
+
+button:hover {
+  color: #cd9346;
+  background-color: #140b0b; }
 
 @media only screen and (max-width: 760px) {
   .mediaFix {

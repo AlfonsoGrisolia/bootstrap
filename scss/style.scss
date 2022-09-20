@@ -9,7 +9,7 @@ main{ margin-bottom: 75px; min-height: calc(100vh - 100px - 183px);
     }
 }
 
-.txtP {padding: 10px; font-size: 15px;}
+.txtP{padding: 10px; font-size: 15px;}
 h3{ @extend .txtP; color: #cd9346; }
 
 @mixin txtProductosCards ($color) {
@@ -46,10 +46,16 @@ h3{ @extend .txtP; color: #cd9346; }
 
 h5{text-align: center; color: $colorGlobal;}
 
-.btn {
-    margin-left: 50px;
+.btn{
+    margin-left: 70px;
+    bottom: 0;
     
 }
+.btn-primary {
+    position: absolute;
+    margin-bottom: 10px;
+}
+
 
 p{color: $colorSecundario;
     #contactoParrafo{
@@ -86,10 +92,17 @@ width: 100%;
 background-color: rgb(20, 11, 11);
 
 }
-.navbar-brand{margin-left: 50px;}
+footer img{
+    padding-bottom: 15px;
+}
+.navbar-brand{margin-left: 50px; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
 .nav-item{margin-left: 175px;}
 .footerImg{text-align: center; } 
 .card {margin: auto;}
+button:hover{
+    color: #cd9346;
+    background-color:rgb(20, 11, 11);
+}
 
 
 @media only screen and (max-width: 760px){
